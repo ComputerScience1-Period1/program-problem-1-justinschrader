@@ -1,0 +1,24 @@
+/*
+Your Name - Date Period
+Assignment Name : *
+Brief Description of the Assignment
+*/
+// Libraries
+#include <iostream> // gives access to cin, cout, endl, <<, >>, boolalpha, noboolalpha
+#include <conio.h> // gives access to _kbhit() and _getch() for pause()
+// Namespaces
+using namespace std; //*
+//Functions()
+void pause() {
+cout << "Hello World";
+while (!_kbhit());
+_getch();
+cout << '\n';
+}
+// MAIN
+void main() {
+int period;
+// Define and Assign your variable(s)
+// Display Text
+pause(); // pauses to see the displayed text
+}
